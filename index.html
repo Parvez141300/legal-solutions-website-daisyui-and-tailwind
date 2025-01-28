@@ -20,6 +20,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'justice-primary': '#B68C5A',
                     }
                 },
                 fontFamily: {
@@ -29,17 +30,129 @@
             }
         }
     </script>
+    <!-- css styles  -->
+    <style>
+        .provide_effect{
+            background: linear-gradient(0deg, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0)), url('images/banner.png');
+        }
+    </style>
 </head>
 
-<body class="font-eb-garamond">
+<body class="font-poppins">
     <!-- header section start  -->
-    <header>
-        <h1>I am Parvez Hossain Alif</h1>
+    <header class="container mx-auto mb-16">
+        <!-- navigation menu start  -->
+        <nav class="w-[90%] mx-auto mb-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden p-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li>
+                                <a>Services</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Cases</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Blog</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Contact Us</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl font-bold lg:px-0"><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <details>
+                                <summary>Services</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Cases</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Contact Us</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-justice-primary text-white hover:text-black">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation menu end  -->
+
+        <!-- we provide effect section start  -->
+        <section class="provide_effect w-[90%] h-[500px] md:h-[600px] mx-auto bg-cover bg-no-repeat bg-center">
+            <div class="text-white text-center h-full flex flex-col justify-center gap-6">
+                <h1 class="text-3xl md:text-5xl lg:text-7xl font-extrabold text-center font-eb-garamond">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-[#E7E7E7] text-center">There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration in some form, by injected humour.</p>
+                <form action="" class="flex flex-col mx-auto md:flex-wrap lg:flex-nowrap md:flex-row gap-5 md:justify-center">
+                    <input class="py-3 px-5 w-[100%] md:w-[75%] lg:w-[100%] rounded-lg" type="search" name="" id="" placeholder="Search your services">
+                    <input class="btn bg-justice-primary border-0 text-white px-8" type="submit" value="Search">
+                </form>
+            </div>
+        </section>
+        <!-- we provide effect section end  -->
     </header>
     <!-- header section end  -->
 
     <!-- main section start  -->
-    <main>
+    <main class="container mx-auto mb-16">
 
     </main>
     <!-- main section end  -->
